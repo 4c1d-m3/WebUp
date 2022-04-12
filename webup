@@ -1,0 +1,23 @@
+#!/bin/bash
+
+port=$1
+
+echo -e "\e[1mMade By r00t5h1t\e[0m"
+echo -ne '⬛⬛⬛⬛                  (33%)\r'
+sleep 1
+echo -ne '⬛⬛⬛⬛⬛⬛⬛            (66%)\r'
+sleep 1
+echo -ne '⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛      (100%)\r'
+echo -ne '\n'
+echo -e "\e[1m
+#     # ####### ######     #     # ######  
+#  #  # #       #     #    #     # #     # 
+#  #  # #       #     #    #     # #     # 
+#  #  # #####   ######     #     # ######  
+#  #  # #       #     #    #     # #       
+#  #  # #       #     #    #     # #       
+ ## ##  ####### ######      #####  # \e[0m"
+
+echo -e "\e[1mServer Started in This Port ( $port )\e[0m"
+
+python3 -m http.server $port
