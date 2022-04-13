@@ -4,7 +4,7 @@
 
 **How To install This Tool** 
 
-**STEP 1 : git clone https://github.com/n00bC0der69/WebUp.git**
+**STEP 1 : git clone https://github.com/4c1d-m3/WebUp.git**
 
 **STEP 2 : cd WebUp**
 
